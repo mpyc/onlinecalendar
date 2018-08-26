@@ -1,0 +1,46 @@
+.submit_form {
+    margin: 0 auto;
+    width: 35%;
+    vertical-align: middle;
+}
+
+.submit_button {
+    display: inline-block;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.checkboxForm {
+    display: inline-block;
+    width: 150px;
+}
+
+.selexpidate {
+    display: none;
+}
+
+.selText {
+    display: none;
+}
+
+.checkbox {
+
+}
+
+.passwordText {
+    display: none;
+}
+
+.checkBoxPassword {
+    display: none;
+}
+
+.passwordInput {
+    display: none;
+}
+
+.showPasswordCheckBox {
+    display: none;
+}
+
+

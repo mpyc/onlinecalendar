@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../css/home.css" type="text/css">
+<script type="text/javascript" src="../scripts/home.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online calendar</title>
+
+</head>
+<body background="/images/backgroundcalendar.jpg" style="background-repeat: no-repeat; background-size: 100%"
+      onload="clear();">
+
+
+<div class="submit_form">
+    <form method="post">
+        <div>
+            <div class="submit_button">
+                <input type="submit" value="Generete new calendar">
+            </div>
+            <div class="checkboxForm">
+                More options: <input id="checkMoreOptions" class="checkMoreOptions" type="checkbox"
+                                     onclick="displayMoreOptions()">
+            </div>
+        </div>
+
+        <div id="calexp">
+            <p id="expText" class="selText">Calendar expiration: </p> <select id="selexpidate" name="expiry_date"
+                                                                              class="selexpidate">
+            <option value="1">1 day</option>
+            <option value="2">2 days</option>
+            <option value="3">3 days</option>
+            <option value="7">Week</option>
+            <option value="14">2 Weeks</option>
+            <option value="31">Month</option>
+            <option value="365">Year</option>
+        </select>
+        </div>
+        <div>
+            <p id="passwordText" class="passwordText"> Secure by password: </p> <input id="checkBoxPassword"
+                                                                                       class="checkBoxPassword"
+                                                                                       type="checkbox"
+                                                                                       onclick="showPasswordField()">
+            <input id="passwordInput" class="passwordInput" name="password" type="password" value="">
+            <input id="showPasswordCheckBox" class="showPasswordCheckBox" type="checkbox" onclick="showPass()">
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
